@@ -4,12 +4,34 @@
     font-family: "Libre Franklin", serif;
 }
 
+
+
 .navbar-head{
+    width: 100%;
+    /* height: 100px; */
     display: flex;
     justify-content: space-between;
 }
 
 .logo img{
     width: 170px;
+}
+
+.navbar-menu{
+    display: flex;
+    
+}
+
+.navbar-menu .nav-link{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 18px;
+}
+
+.navbar-menu .nav-link a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
 }
 
